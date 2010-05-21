@@ -31,7 +31,7 @@ gettext.install('tuquito-bienvenida', '/usr/share/tuquito/locale')
 class Welcome():
 	def __init__(self):
 		self.builder = gtk.Builder()
-		self.builder.add_from_file('bienvenida.glade')
+		self.builder.add_from_file('/usr/lib/tuquito/tuquito-bienvenida/bienvenida.glade')
 		self.window = self.builder.get_object('window')
 
 		codename = commands.getoutput('cat /etc/tuquito/info | grep CODENAME').split('=')[1]
@@ -88,7 +88,7 @@ class Welcome():
 		welcome = _('Hola')
 		welcome2 = _(', bienvenido a Tuquito 4!<br>Muchas gracias por elegirnos. Esperamos que disfrutes del trabajo de esta gran comunidad.<br>Los siguientes enlaces te ayudarán a iniciarte en el sistema operativo. No dudes en enviarnos tus sugerencias para que sigamos mejorando.')
 		text['welcome'] = welcome + ' <b>' + user + '</b>' + welcome2
-		template = open('./templates/bienvenida.html').read()		
+		template = open('/usr/lib/tuquito/tuquito-bienvenida/templates/bienvenida.html').read()		
 		html = string.Template(template).safe_substitute(text)
 		browser.load_html_string(html, 'file:/')
 		browser.connect('title-changed', self.title_changed)
