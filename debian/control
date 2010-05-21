@@ -1,0 +1,12 @@
+Source: tuquito-bienvenida
+Section: misc
+Priority: extra
+Maintainer: Mario Colque <mario@tuquito.org.ar>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.8.1
+
+Package: tuquito-bienvenida
+Architecture: all
+Description: Tuquito bienvenida
+ Pantalla de bienvenida de Tuquito 4.x
+ * Tuquito Team! - 2010
