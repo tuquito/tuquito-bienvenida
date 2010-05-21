@@ -1,5 +1,5 @@
 #!/usr/bin/python
 import os
 from user import home
-if (not os.path.exists(home + '/.tuquito/tuquito-bienvenida/norun')) and (not os.path.exists('/usr/bin/ubiquity')):
+if (not os.path.exists(home + '/.tuquito/tuquito-bienvenida/norun') and (os.system('mount | grep aufs') == 0):
 	os.system('tuquito-bienvenida')
