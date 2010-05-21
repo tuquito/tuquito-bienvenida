@@ -1,3 +1,9 @@
+tuquito-bienvenida (4.0-2) lucid; urgency=low
+
+  * correccion en directorios
+
+ -- Mario Colque <mario@tuquito.org.ar>  Fri, 21 May 2010 18:50:00 -0300
+
 tuquito-bienvenida (4.0-1) lucid; urgency=low
 
   * Version inicial
