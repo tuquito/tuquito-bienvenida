@@ -4,7 +4,7 @@ html, body {
 }
 
 body {
-	background: url(/media/Datos/Colkito/Tuquito/Tuquito4.0/Desarrollo/tuquito-bienvenida-4.0/usr/lib/tuquito/templates/backgound.jpg) no-repeat;
+	background: url(/usr/lib/tuquito/tuquito-bienvenida/templates/backgound.jpg) no-repeat;
 	color:#FFF;      
 }
 
@@ -40,7 +40,7 @@ a:hover {
 }
 
 .boton {
-    background: #f2f2f2 url(../img/boton-gris.png) repeat-x scroll left top;
+    background: #f2f2f2 url(/usr/lib/tuquito/tuquito-bienvenida/templates/boton-gris.png) repeat-x scroll left top;
 	text-decoration: none;
 	font-size: 15px !important;
     padding: 10px;
@@ -56,7 +56,7 @@ a:hover {
 	border-color: #666;
 }
 
-.boton:active { background: #eee url(../img/boton-gris-activo.png) repeat-x scroll left bottom; }
+.boton:active { background: #eee url(/usr/lib/tuquito/tuquito-bienvenida/templates/boton-gris-activo.png) repeat-x scroll left bottom; }
 
 #btn_descarga:hover { border-color: #AD7FA8; }
 
@@ -94,5 +94,5 @@ a:hover {
 
 #ajax {
 	border: solid 1px #CEE300;
-	background: transparent url(/media/Datos/Colkito/Tuquito/Tuquito4.0/Desarrollo/tuquito-bienvenida-4.0/usr/lib/tuquito/templates/overlay.png) repeat 0 0 !important;
+	background: transparent url(/usr/lib/tuquito/tuquito-bienvenida/templates/overlay.png) repeat 0 0 !important;
 }
