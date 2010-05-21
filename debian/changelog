@@ -1,3 +1,9 @@
+tuquito-bienvenida (4.0-5) lucid; urgency=low
+
+  * correccion en la sitaxis
+
+ -- Mario Colque <mario@tuquito.org.ar>  Fri, 21 May 2010 19:58:38 -0300
+
 tuquito-bienvenida (4.0-4) lucid; urgency=low
 
   * arreglo en deteccion de modo live
