@@ -1,0 +1,5 @@
+#!/usr/bin/python
+import os
+from user import home
+if (not os.path.exists(home + '/.tuquito/tuquito-bienvenida/norun')) and (not os.path.exists('/usr/bin/ubiquity')):
+	os.system('tuquito-bienvenida')

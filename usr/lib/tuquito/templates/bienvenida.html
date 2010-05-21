@@ -1,0 +1,75 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" DIR="LTR">
+<head>
+	<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+	<script type="text/javascript" src="/media/Datos/Colkito/Tuquito/Tuquito4.0/Desarrollo/tuquito-bienvenida-4.0/usr/lib/tuquito/templates/jquery.js"></script>
+	<script type="text/javascript" src="/media/Datos/Colkito/Tuquito/Tuquito4.0/Desarrollo/tuquito-bienvenida-4.0/usr/lib/tuquito/templates/tuquito.js"></script>
+	<link href="/media/Datos/Colkito/Tuquito/Tuquito4.0/Desarrollo/tuquito-bienvenida-4.0/usr/lib/tuquito/templates/tuquito.css" media="screen" rel="stylesheet" type="text/css"> 
+</head>
+<body>
+<div id="content">
+<h3>$title</h3>
+<div id="data">
+    <b>$release_title:</b> $release<br>
+    <b>$edition_title:</b> $edition
+</div>
+
+<div id="welcome">$welcome</div>
+
+<hr/>
+<div id="botonera"> 
+	<ul> 
+		<li id="btn_descarga" class="boton">$doc</li> 
+		<li id="btn_donacion" class="boton">$sop</li> 
+		<li id="btn_participar" class="boton">$pro</li> 
+		<li id="btn_exito" class="boton">$com</li> 
+	</ul> 
+</div>
+
+<div id="ajax" class="hidden"></div>
+
+<div id="doc" class="hidden">
+	<ul>
+		<li><a href='javascript:changeTitle("event_tukipedia")'>$tukipedia</a> - <span class="text">$tukipedia2</span></li>
+		<li><a href='javascript:changeTitle("event_video")'>$video</a> - <span class="text">$video2</span></li>
+	</ul>
+</div>
+
+<div id="sop" class="hidden">
+	<ul>
+		<li><a href='javascript:changeTitle("event_forums")'>$forums</a> - <span class="text">$forums2</span></li>
+		<li><a href='javascript:changeTitle("event_list")'>$mailist</a> - <span class="text">$mailist2</span></li>
+		<li><a href='javascript:changeTitle("event_irc")'>$irc</a> - <span class="text">$irc2</span></li>
+	</ul>
+</div>
+
+<div id="pro" class="hidden">
+	<ul>
+		<li><a href='javascript:changeTitle("event_urbano")'>$urbano</a> - <span class="text">$urbano2</span></li>
+		<li><a href='javascript:changeTitle("event_donation")'>$donation</a> - <span class="text">$donation2</span></li>
+		<li><a href='javascript:changeTitle("event_get_involved")'>$get_involved</a> - <span class="text">$get_involved2</span></li>
+		<li><a href='javascript:changeTitle("event_other")'>$other</a> - <span class="text">$other2</span></li>
+	</ul>
+</div>
+
+<div id="com" class="hidden">
+	<ul>
+		<li><a href='javascript:changeTitle("event_social")'>$social</a> - <span class="text">$social2</span></li>
+		<li><a href='javascript:changeTitle("event_universo")'>$universo</a> - <span class="text">$universo2</span></li>
+		<li><a href='javascript:changeTitle("event_facebook")'>$facebook</a> - <span class="text">$facebook2</span></li>
+		<li><a href='javascript:changeTitle("event_twitter")'>$twitter</a> - <span class="text">$twitter2</span></li>
+	</ul>
+</div>
+</div>
+
+<div id="form" align="right">
+	<form action="#" name="myForm">
+		<input type=checkbox name="showDialog" $checked onclick='javascript:assessCheckbox()'>$show&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<input type=submit name="closebutton" value=" $close " onclick='javascript:closeWindow()' />
+	</form>
+</div>
+
+<div id="footer">© 2010 Tuquito Team!</div>
+</body>
+</html>

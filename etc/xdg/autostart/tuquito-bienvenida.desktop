@@ -1,0 +1,10 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Tuquito Bienvenida
+Comment=Pantalla de bienvenida de Tuquito
+Icon=gnome-info
+Exec=tuquito-bienvenida-launcher
+Terminal=false
+Type=Application
+Categories=
+OnlyShowIn=GNOME;XFCE;
