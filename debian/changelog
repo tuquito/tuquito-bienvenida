@@ -1,3 +1,11 @@
+tuquito-bienvenida (4.0-5.1) lucid; urgency=low
+
+  * arreglos en logica de inicio
+  * correccion en html
+  * agregado lanzadores en bash
+
+ -- Mario Colque <mario@tuquito.org.ar>  Sat, 22 May 2010 18:36:08 -0300
+
 tuquito-bienvenida (4.0-5) lucid; urgency=low
 
   * correccion en la sitaxis
