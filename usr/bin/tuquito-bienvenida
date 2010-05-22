@@ -1,3 +1,2 @@
-#!/usr/bin/python
-import os
-os.system('python /usr/lib/tuquito/tuquito-bienvenida/tuquito-bienvenida.py')
+#!/bin/bash
+/usr/lib/tuquito/tuquito-bienvenida/tuquito-bienvenida.py

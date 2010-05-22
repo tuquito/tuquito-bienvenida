@@ -1,0 +1,2 @@
+#!/bin/sh
+/usr/bin/xchat --url=irc://irc.debian.org/tuquito

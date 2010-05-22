@@ -1,5 +1,8 @@
-#!/usr/bin/python
-import os
-from user import home
-if (not os.path.exists(home + '/.tuquito/tuquito-bienvenida/norun') and (os.system('mount | grep aufs') == 0)):
-	os.system('tuquito-bienvenida')
+#!/bin/sh
+DIR=$HOME'/.tuquito/tuquito-bienvenida/norun'
+if [ ! -f $DIR ]; then
+	if [ "`mount | grep "aufs"`" != "" ]; then
+		echo "si"
+		tuquito-bienvenida
+	fi;
+fi;

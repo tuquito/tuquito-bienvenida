@@ -14,16 +14,14 @@ function closeWindow() {
 function assessCheckbox() {
 	if (document.myForm.showDialog.checked == true) {
 		changeTitle("checkbox_checked");
-		alert('chec')
 	} else {
-		alert('no chec')
 		changeTitle("checkbox_unchecked");
 	}
 }
 
 $(document).ready(function(){
 	cont = $("#com").html();
-	$("#ajax").hide().html(cont).fadeIn(1500);
+	$("#ajax").hide().html(cont).fadeIn(1800);
 
 	$("#btn_descarga").click(function(){
 		cont = $("#doc").html();
