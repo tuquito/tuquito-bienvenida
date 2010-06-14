@@ -1,3 +1,9 @@
+tuquito-bienvenida (4.0-5.4) lucid; urgency=low
+
+  * traducciones agregadas es, pt
+
+ -- Mario Colque <mario@tuquito.org.ar>  Mon, 14 Jun 2010 14:44:52 -0300
+
 tuquito-bienvenida (4.0-5.3) lucid; urgency=low
 
   * correccion en sitanxis

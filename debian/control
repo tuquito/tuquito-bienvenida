@@ -7,6 +7,6 @@ Standards-Version: 3.8.1
 
 Package: tuquito-bienvenida
 Architecture: all
-Description: Tuquito bienvenida
- Pantalla de bienvenida de Tuquito 4.x
+Description: Bienvenida a Tuquito
+ Pantalla de bienvenida de Tuquito 4.x con información útil
  * Tuquito Team! - 2010

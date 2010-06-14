@@ -2,7 +2,7 @@
 DIR=$HOME'/.tuquito/tuquito-bienvenida/norun'
 if [ ! -f $DIR ]; then
 	if [ "`mount | grep "aufs"`" = "" ]; then
-		echo "si"
+		sleep 5
 		tuquito-bienvenida
 	fi;
 fi;

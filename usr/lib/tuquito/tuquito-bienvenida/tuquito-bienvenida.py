@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 """
- Tuquito Bienvenida 0.1
+ Tuquito Bienvenida 4.0
  Copyright (C) 2010
  Author: Mario Colque <mario@tuquito.org.ar>
  Tuquito Team! - www.tuquito.org.ar
@@ -19,7 +19,7 @@
  Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA.
 """
 
-import gtk, sys, pygtk
+import gtk, pygtk
 pygtk.require("2.0")
 import commands, os
 import gettext, webkit, string
@@ -46,48 +46,48 @@ class Welcome():
 		text = {}
 		text['release'] = release + ' (' + codename + ')'
 		text['edition'] = edition
-		text['title'] = _('Bienvenid@ a Tuquito!')
+		text['title'] = _('Welcome to Tuquito!')
 		text['release_title'] = _('Release')
-		text['edition_title'] = _('Edición')
-		text['doc'] = _('Documentación')
-		text['sop'] = _('Soporte')
-		text['pro'] = _('Proyecto')
-		text['com'] = _('Comunidad')
-		text['tukipedia'] = _('Tukipedia')
-		text['tukipedia2'] = _('La fuente de información por excelencia de Tuquito')
+		text['edition_title'] = _('Edition')
+		text['doc'] = _('Documentation')
+		text['sop'] = _('Support')
+		text['pro'] = _('Project')
+		text['com'] = _('Community')
+		text['tukipedia'] = 'Tukipedia'
+		text['tukipedia2'] = _('The source of information of excellence Tuquito')
 		text['video'] = _('Videos Tuquito')
-		text['video2'] = _('Videos y tutoriales')
-		text['forums'] = _('Foros')
-		text['forums2'] = _('Buscá ayuda en los foros oficiales')
-		text['mailist'] = _('Lista de correo')
-		text['mailist2'] = _('Sumate a la lista de correo abierta de Tuquito')
-		text['irc'] = _('Sala de chat')
-		text['irc2'] = _('Conocé a otros usuarios de Tuquito!')
-		text['urbano'] = _('Tuquito Urbano')
-		text['urbano2'] = _('Ayudá a los que más necesitan!')
-		text['other'] = _('Otros proyectos')
-		text['other2'] = _('Conocé los otros proyectos de Tuquito')
-		text['donation'] = _('Donaciones')
-		text['donation2'] = _('Realizando una pequeña donación nos ayudas a mejorar el producto')
-		text['get_involved'] = _('Como participar')
-		text['get_involved2'] = _('Formas y medios para participar del proyecto')
+		text['video2'] = _('Videos and tutorials')
+		text['forums'] = _('Forums')
+		text['forums2'] = _('Find help on the official forums')
+		text['mailist'] = _('Mailing List')
+		text['mailist2'] = _('Join the mailing list open Tuquito')
+		text['irc'] = _('Chat Room')
+		text['irc2'] = _('Meet other users of Tuquito')
+		text['urbano'] = _('Urban Tuquito')
+		text['urbano2'] = _('Helps those who most need')
+		text['other'] = _('Other projects')
+		text['other2'] = _('Meet other projects Tuquito')
+		text['donation'] = _('Donations')
+		text['donation2'] = _('Making a small donation, you help us improve the product')
+		text['get_involved'] = _('How to Participate')
+		text['get_involved2'] = _('Ways and means to participate in the project')
 		text['social'] = _('Tuquito Social')
-		text['social2'] = _('Sumate a la red social de Tuquito!')
-		text['universo'] = _('Universo Tuquito')
-		text['universo2'] = _('Enterate de todo lo que pasa en Tuquito')
-		text['facebook'] = _('Síguenos en Facebook')
-		text['facebook2'] = _('Síguenos en Facebook')
-		text['twitter'] = _('Síguenos en Twitter')
-		text['twitter2'] = _('Síguenos en Twitter')
-		text['show'] = _('Mostrar este diálogo al inicio')
-		text['close'] = _('Cerrar')
+		text['social2'] = _('Join the social network Tuquito')
+		text['universo'] = _('Tuquito Universe')
+		text['universo2'] = _('Find out everything that happens in Tuquito')
+		text['facebook'] = _('Follow us on Facebook')
+		text['facebook2'] = _('Follow us on Facebook')
+		text['twitter'] = _('Follow us on Twitter')
+		text['twitter2'] = _('Follow us on Twitter')
+		text['show'] = _('Show this dialog at startup')
+		text['close'] = _('Close')
 		if os.path.exists(home + '/.tuquito/tuquito-biendenida/norun'):		
 			text['checked'] = ('')
 		else:
 			text['checked'] = ('CHECKED')
-		welcome = _('Hola')
-		welcome2 = _(', bienvenido a Tuquito 4!<br>Muchas gracias por elegirnos. Esperamos que disfrutes del trabajo de esta gran comunidad.<br>Los siguientes enlaces te ayudarán a iniciarte en el sistema operativo. No dudes en enviarnos tus sugerencias para que sigamos mejorando.')
-		text['welcome'] = welcome + ' <b>' + user + '</b>' + welcome2
+		welcome = _('Hi')
+		welcome2 = _('welcome to Tuquito 4!<br>Thank you very much for choosing us. We hope you enjoy the work of this great community.<br>The following links will help you get started in the operating system. Please send your suggestions to continue improving.')
+		text['welcome'] = '%s , <b>%s</b>, %s' % (welcome, user, welcome2)
 		template = open('/usr/lib/tuquito/tuquito-bienvenida/templates/bienvenida.html').read()		
 		html = string.Template(template).safe_substitute(text)
 		browser.load_html_string(html, 'file:/')
@@ -97,9 +97,6 @@ class Welcome():
 	def title_changed(self, view, frame, title):	
 		if title.startswith('nop'):
 		    return
-		# call directive looks like:
-		#  "call:func:arg1,arg2"
-		#  "call:func"
 		if title == 'event_irc':
 				os.system('/usr/bin/irc-tuquito &')
 		elif title == 'event_tukipedia':
