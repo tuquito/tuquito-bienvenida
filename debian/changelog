@@ -1,3 +1,9 @@
+tuquito-bienvenida (4.0-6) lucid; urgency=low
+
+  * correccion en directorios po
+
+ -- Mario Colque <mario@tuquito.org.ar>  Mon, 14 Jun 2010 20:17:20 -0300
+
 tuquito-bienvenida (4.0-5.4) lucid; urgency=low
 
   * traducciones agregadas es, pt

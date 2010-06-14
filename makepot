@@ -1,3 +1,2 @@
 #!/bin/bash
-
-xgettext --language=Python --keyword=_ --output=usr/share/tuquito/locale/templates/tuquito-bienvenida.pot usr/lib/tuquito/tuquito-bienvenida/tuquito-bienvenida.py
+xgettext --language=Python --keyword=_ --output=po/tuquito-bienvenida.pot usr/lib/tuquito/tuquito-bienvenida/tuquito-bienvenida.py
