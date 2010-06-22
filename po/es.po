@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: tuquito-bienvenida 0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-06-03 09:39-0300\n"
+"POT-Creation-Date: 2010-06-22 15:02-0300\n"
 "PO-Revision-Date: 2010-06-14 14:36-0300\n"
 "Last-Translator: Mario Colque <mario@tuquito.org.ar>\n"
 "Language-Team: Spanish\n"
@@ -128,12 +128,10 @@ msgstr "Universo Tuquito"
 msgid "Find out everything that happens in Tuquito"
 msgstr "Enterate de todo lo que pasa en Tuquito"
 
-#: usr/lib/tuquito/tuquito-bienvenida/tuquito-bienvenida.py:78
 #: usr/lib/tuquito/tuquito-bienvenida/tuquito-bienvenida.py:79
 msgid "Follow us on Facebook"
 msgstr "Síguenos en Facebook"
 
-#: usr/lib/tuquito/tuquito-bienvenida/tuquito-bienvenida.py:80
 #: usr/lib/tuquito/tuquito-bienvenida/tuquito-bienvenida.py:81
 msgid "Follow us on Twitter"
 msgstr "Síguenos en Twitter"
@@ -158,6 +156,6 @@ msgid ""
 "continue improving."
 msgstr ""
 "bienvenido/a a Tuquito 4!<br>Muchas gracias por elegirnos. Esperamos que "
-"disfrutes del trabajo de esta gran comunidad.<br>Los siguientes enlaces "
-"te ayudarán a iniciarte en el sistema operativo. No dudes en enviarnos tus "
+"disfrutes del trabajo de esta gran comunidad.<br>Los siguientes enlaces te "
+"ayudarán a iniciarte en el sistema operativo. No dudes en enviarnos tus "
 "sugerencias para que sigamos mejorando."

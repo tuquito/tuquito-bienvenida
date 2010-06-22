@@ -75,9 +75,9 @@ class Welcome():
 		text['social2'] = _('Join the social network Tuquito')
 		text['universo'] = _('Tuquito Universe')
 		text['universo2'] = _('Find out everything that happens in Tuquito')
-		text['facebook'] = _('Follow us on Facebook')
+		text['facebook'] = 'Facebook'
 		text['facebook2'] = _('Follow us on Facebook')
-		text['twitter'] = _('Follow us on Twitter')
+		text['twitter'] = 'Twitter'
 		text['twitter2'] = _('Follow us on Twitter')
 		text['show'] = _('Show this dialog at startup')
 		text['close'] = _('Close')
@@ -98,7 +98,7 @@ class Welcome():
 		if title.startswith('nop'):
 		    return
 		if title == 'event_irc':
-				os.system('/usr/bin/irc-tuquito &')
+				os.system('/usr/bin/xchat &')
 		elif title == 'event_tukipedia':
 			os.system('xdg-open http://tukipedia.tuquito.org.ar')
 		elif title == 'event_video':

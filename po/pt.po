@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: tuquito-bienvenida 0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-06-03 09:39-0300\n"
+"POT-Creation-Date: 2010-06-22 15:02-0300\n"
 "PO-Revision-Date: 2010-06-14 14:41-0300\n"
 "Last-Translator: Carlos Pessoa de Araújo <carlosfelipe@tuquito.org.ar>\n"
 "Language-Team: Portuguese\n"
@@ -128,12 +128,10 @@ msgstr "Universo Tuquito"
 msgid "Find out everything that happens in Tuquito"
 msgstr "Fique por dentro das novidades do Tuquito"
 
-#: usr/lib/tuquito/tuquito-bienvenida/tuquito-bienvenida.py:78
 #: usr/lib/tuquito/tuquito-bienvenida/tuquito-bienvenida.py:79
 msgid "Follow us on Facebook"
 msgstr "Siga a gente no Facebook"
 
-#: usr/lib/tuquito/tuquito-bienvenida/tuquito-bienvenida.py:80
 #: usr/lib/tuquito/tuquito-bienvenida/tuquito-bienvenida.py:81
 msgid "Follow us on Twitter"
 msgstr "Siga a gente no Twitter"
@@ -157,7 +155,7 @@ msgid ""
 "get started in the operating system. Please send your suggestions to "
 "continue improving."
 msgstr ""
-"Bem-vindo(a) ao Tuquito 4!<br>Muito obrigado por nos escolher. Esperamos que você "
-"desfrute do trabalho desta enorme comunidade.<br>Os links a seguir "
-"vão ajudá-lo a iniciá-lo no sistema operacional. Não hesite de nos enviar "
-"suas sugestões para continuarmos melhorando."
+"Bem-vindo(a) ao Tuquito 4!<br>Muito obrigado por nos escolher. Esperamos que "
+"você desfrute do trabalho desta enorme comunidade.<br>Os links a seguir vão "
+"ajudá-lo a iniciá-lo no sistema operacional. Não hesite de nos enviar suas "
+"sugestões para continuarmos melhorando."

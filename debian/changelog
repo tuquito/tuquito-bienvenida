@@ -1,3 +1,9 @@
+tuquito-bienvenida (4.0-6.1) lucid; urgency=low
+
+  * XCHAT nuevo, agregado
+
+ -- Mario Colque <mario@tuquito.org.ar>  Tue, 22 Jun 2010 15:04:56 -0300
+
 tuquito-bienvenida (4.0-6) lucid; urgency=low
 
   * correccion en directorios po
