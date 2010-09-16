@@ -85,7 +85,7 @@ class Welcome():
 		else:
 			text['checked'] = ('CHECKED')
 		welcome = _('Hi')
-		welcome2 = _('welcome to Tuquito 4!<br>Thank you very much for choosing us. We hope you enjoy the work of this great community.<br>The following links will help you get started in the operating system. Please send your suggestions to continue improving.')
+		welcome2 = _('welcome to Tuquito 4.1!<br>Thank you very much for choosing us. We hope you enjoy the work of this great community.<br>The following links will help you get started in the operating system. Please send your suggestions to continue improving.')
 		text['welcome'] = '%s, <b>%s</b>, %s' % (welcome, user, welcome2)
 		template = open('/usr/lib/tuquito/tuquito-bienvenida/templates/bienvenida.html').read()		
 		html = string.Template(template).safe_substitute(text)
@@ -107,7 +107,7 @@ class Welcome():
 		elif title == 'event_list':
 			os.system('xdg-open http://groups.google.com/group/comunidad-tuquito')
 		elif title == 'event_social':
-			os.system('xdg-open http://tuquito.ning.com')
+			os.system('xdg-open http://social.tuquito.org.ar')
 		elif title == 'event_universo':
 			os.system('xdg-open http://universo.tuquito.org.ar')
 		elif title == 'event_facebook':
