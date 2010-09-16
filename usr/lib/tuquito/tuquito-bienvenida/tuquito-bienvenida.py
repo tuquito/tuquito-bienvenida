@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 """
- Tuquito Bienvenida 4.0
+ Tuquito Bienvenida 4.1
  Copyright (C) 2010
  Author: Mario Colque <mario@tuquito.org.ar>
  Tuquito Team! - www.tuquito.org.ar
@@ -19,8 +19,7 @@
  Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA.
 """
 
-import gtk, pygtk
-pygtk.require("2.0")
+import gtk
 import commands, os
 import gettext, webkit, string
 from user import home
@@ -41,7 +40,7 @@ class Welcome():
 
 		self.builder.get_object('window').connect('destroy', gtk.main_quit)
 		browser = webkit.WebView()
-		self.builder.get_object('scrolled').add(browser)
+		self.window.add(browser)
 		browser.connect('button-press-event', lambda w, e: e.button == 3)
 		text = {}
 		text['release'] = release + ' (' + codename + ')'
@@ -94,7 +93,7 @@ class Welcome():
 		browser.connect('title-changed', self.title_changed)
 		self.window.show_all()
 
-	def title_changed(self, view, frame, title):	
+	def title_changed(self, view, frame, title):
 		if title.startswith('nop'):
 		    return
 		if title == 'event_irc':

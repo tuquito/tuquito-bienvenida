@@ -1,8 +1,8 @@
 #!/bin/sh
-DIR=$HOME'/.tuquito/tuquito-bienvenida/norun'
+DIR="$HOME/.tuquito/tuquito-bienvenida/norun"
 if [ ! -f $DIR ]; then
 	if [ "`mount | grep "aufs"`" = "" ]; then
 		sleep 8
-		tuquito-bienvenida
+		tuquito-bienvenida &
 	fi;
 fi;

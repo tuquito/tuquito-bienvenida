@@ -1,2 +1,2 @@
 #!/bin/bash
-/usr/lib/tuquito/tuquito-bienvenida/tuquito-bienvenida.py
+/usr/lib/tuquito/tuquito-bienvenida/tuquito-bienvenida.py &

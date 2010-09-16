@@ -1,3 +1,11 @@
+tuquito-bienvenida (4.1-1) maverick; urgency=low
+
+  * rebranded to maverick
+  * migrate to html5 (initial)
+  * no selected text properties
+
+ -- Mario Colque <mario@tuquito.org.ar>  Thu, 16 Sep 2010 02:50:57 -0300
+
 tuquito-bienvenida (4.0-7) lucid; urgency=low
 
   * Correción en sintaxis de saludo
