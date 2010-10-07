@@ -33,9 +33,9 @@ class Welcome():
 		self.builder.add_from_file('/usr/lib/tuquito/tuquito-bienvenida/bienvenida.glade')
 		self.window = self.builder.get_object('window')
 
-		codename = commands.getoutput('cat /etc/tuquito/info | grep CODENAME').split('=')[1]
-		release = commands.getoutput('cat /etc/tuquito/info | grep RELEASE').split('=')[1]
-		edition = commands.getoutput('cat /etc/tuquito/info | grep EDITION').split('=')[1]
+		codename = commands.getoutput('grep CODENAME /etc/tuquito/info').split('=')[1]
+		release = commands.getoutput('grep RELEASE /etc/tuquito/info').split('=')[1]
+		edition = commands.getoutput('grep EDITION /etc/tuquito/info').split('=')[1].replace('"', '')
 		user = os.getenv('USER')
 
 		self.builder.get_object('window').connect('destroy', gtk.main_quit)
@@ -43,7 +43,7 @@ class Welcome():
 		self.window.add(browser)
 		browser.connect('button-press-event', lambda w, e: e.button == 3)
 		text = {}
-		text['release'] = release + ' (' + codename + ')'
+		text['release'] = release + ' (' + codename.capitalize() + ')'
 		text['edition'] = edition
 		text['title'] = _('Welcome to Tuquito!')
 		text['release_title'] = _('Release')
@@ -80,14 +80,14 @@ class Welcome():
 		text['twitter2'] = _('Follow us on Twitter')
 		text['show'] = _('Show this dialog at startup')
 		text['close'] = _('Close')
-		if os.path.exists(home + '/.tuquito/tuquito-biendenida/norun'):		
-			text['checked'] = ('')
+		if os.path.exists(os.path.join(home, '.tuquito/tuquito-biendenida/norun')):
+			text['checked'] = ''
 		else:
-			text['checked'] = ('CHECKED')
+			text['checked'] = 'CHECKED'
 		welcome = _('Hi')
-		welcome2 = _('welcome to Tuquito %s!<br>Thank you very much for choosing us. We hope you enjoy the work of this great community.<br>The following links will help you get started in the operating system. Please send your suggestions to continue improving.') % release
+		welcome2 = _('welcome to Tuquito %s!<br>Thank you very much for choosing us. We hope you enjoy the work of this great community.<br>The following links will help you get started in the operating system. Please send your suggestions to continue improving.<br>Remember, you can register in our <a href="#" onclick="javascript:changeTitle(\'event_users\')">users section</a>.') % release
 		text['welcome'] = '%s, <b>%s</b>, %s' % (welcome, user, welcome2)
-		template = open('/usr/lib/tuquito/tuquito-bienvenida/templates/bienvenida.html').read()		
+		template = open('/usr/lib/tuquito/tuquito-bienvenida/templates/bienvenida.html').read()
 		html = string.Template(template).safe_substitute(text)
 		browser.load_html_string(html, 'file:/')
 		browser.connect('title-changed', self.title_changed)
@@ -97,6 +97,7 @@ class Welcome():
 		if title.startswith('nop'):
 		    return
 		if title == 'event_irc':
+			if os.path.exists('/usr/bin/xchat'):
 				os.system('/usr/bin/xchat &')
 		elif title == 'event_tukipedia':
 			os.system('xdg-open http://tukipedia.tuquito.org.ar')
@@ -111,9 +112,9 @@ class Welcome():
 		elif title == 'event_universo':
 			os.system('xdg-open http://universo.tuquito.org.ar')
 		elif title == 'event_facebook':
-			os.system('xdg-open http://www.facebook.com/pages/Tuquito/157877426382')
+			os.system('xdg-open http://facebook.com/pages/Tuquito/157877426382')
 		elif title == 'event_twitter':
-			os.system('xdg-open http://www.twitter.com/tuquitolinux')	
+			os.system('xdg-open http://twitter.com/tuquitolinux')
 		elif title == 'event_urbano':
 			os.system('xdg-open http://urbano.tuquito.org.ar')
 		elif title == 'event_get_involved':
@@ -122,6 +123,8 @@ class Welcome():
 			os.system('xdg-open http://tuquito.org.ar/proyectos.html')
 		elif title == 'event_donation':
 			os.system('xdg-open http://tuquito.org.ar/donaciones.html')
+		elif title == 'event_users':
+			os.system('xdg-open http://tuquito.org.ar/usuarios.html')
 		elif title == 'event_close_true':
 			if os.path.exists(home + '/.tuquito/tuquito-bienvenida/norun'):
 				os.system('rm -rf ' + home + '/.tuquito/tuquito-bienvenida/norun')
@@ -136,7 +139,6 @@ class Welcome():
 		elif title == 'checkbox_unchecked':
 			os.system('mkdir -p ' + home + '/.tuquito/tuquito-bienvenida')
 			os.system('touch ' + home + '/.tuquito/tuquito-bienvenida/norun')
-
 if __name__ == '__main__':
 	gtk.gdk.threads_init()
 	Welcome()

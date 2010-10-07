@@ -1,9 +1,5 @@
 document.onmousedown = new Function("return false");
 document.onselectstart = new Function ("return false");
-if (window.sidebar) {
-	document.onmousedown = new Function("return false");
-	document.onclick = new Function("return true");
-}
 
 function changeTitle(title) {
 	document.title = title;
@@ -11,19 +7,17 @@ function changeTitle(title) {
 }
 
 function closeWindow() {
-	if (document.myForm.showDialog.checked == true) {
+	if (document.myForm.showDialog.checked == true)
 		changeTitle("event_close_true");
-	} else {
+	else
 		changeTitle("event_close_false");
-	}
 }
 
 function assessCheckbox() {
-	if (document.myForm.showDialog.checked == true) {
+	if (document.myForm.showDialog.checked == true)
 		changeTitle("checkbox_checked");
-	} else {
+	else
 		changeTitle("checkbox_unchecked");
-	}
 }
 
 $(document).ready(function(){
