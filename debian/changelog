@@ -1,3 +1,11 @@
+tuquito-bienvenida (4.1-2) maverick; urgency=low
+
+  * several improvements
+  * new version
+  * new translations
+
+ -- Mario Colque <mario@tuquito.org.ar>  Wed, 06 Oct 2010 23:53:28 -0300
+
 tuquito-bienvenida (4.1-1) maverick; urgency=low
 
   * rebranded to maverick
