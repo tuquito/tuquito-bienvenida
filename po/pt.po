@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: tuquito-bienvenida 0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-10-06 23:55-0300\n"
+"POT-Creation-Date: 2010-10-27 16:00-0300\n"
 "PO-Revision-Date: 2010-06-14 14:41-0300\n"
 "Last-Translator: Carlos Pessoa de Araújo <carlosfelipe@tuquito.org.ar>\n"
 "Language-Team: Portuguese\n"
@@ -144,11 +144,20 @@ msgstr "Mostrar este diálogo ao iniciar"
 msgid "Close"
 msgstr "Fechar"
 
-#: usr/lib/tuquito/tuquito-bienvenida/tuquito-bienvenida.py:87
+#: usr/lib/tuquito/tuquito-bienvenida/tuquito-bienvenida.py:83
+msgid "Upgrade to the Main Edition (DVD)"
+msgstr "Upgrade para a versão Main (DVD)"
+
+#: usr/lib/tuquito/tuquito-bienvenida/tuquito-bienvenida.py:96
+msgid "Add Multimedia Codecs"
+msgstr "Adicionar Codecs Multimédia"
+
+#: usr/lib/tuquito/tuquito-bienvenida/tuquito-bienvenida.py:109
 msgid "Hi"
 msgstr "Olá"
 
-#: usr/lib/tuquito/tuquito-bienvenida/tuquito-bienvenida.py:88
+#: usr/lib/tuquito/tuquito-bienvenida/tuquito-bienvenida.py:110
+#, python-format
 msgid ""
 "welcome to Tuquito %s!<br>Thank you very much for choosing us. We hope you "
 "enjoy the work of this great community.<br>The following links will help you "

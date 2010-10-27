@@ -90,3 +90,10 @@ li {
 	background: url(/usr/lib/tuquito/tuquito-bienvenida/templates/arrow.png) no-repeat;
 	background-position: left;
 }
+#extraApps {
+	margin-left: 15px;
+	background: url(/usr/lib/tuquito/tuquito-bienvenida/templates/full.png) no-repeat left;
+	padding-left: 40px;
+	padding-top: 18px;
+	height: 36px !important;
+}

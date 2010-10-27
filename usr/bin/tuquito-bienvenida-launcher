@@ -3,6 +3,6 @@ DIR="$HOME/.tuquito/tuquito-bienvenida/norun"
 if [ ! -f $DIR ]; then
 	if [ "`mount | grep "aufs"`" = "" ]; then
 		sleep 10
-		tuquito-bienvenida &
+		/usr/lib/tuquito/tuquito-bienvenida/tuquito-bienvenida.py &
 	fi;
 fi;

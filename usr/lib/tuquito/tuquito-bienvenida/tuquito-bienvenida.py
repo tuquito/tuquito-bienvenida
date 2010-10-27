@@ -80,6 +80,28 @@ class Welcome():
 		text['twitter2'] = _('Follow us on Twitter')
 		text['show'] = _('Show this dialog at startup')
 		text['close'] = _('Close')
+		text['extra_apps'] = _("Upgrade to the Main Edition (DVD)")
+		text['displayextraapps'] = "hidden"
+
+		self.codecs_pkg = None
+		self.extra_pkg = None
+
+		if 'Gnome' in commands.getoutput('grep EDITION /etc/tuquito/info') and 'debian' not in commands.getoutput('grep EDITION /etc/tuquito/info'):
+			# Gnome edition comes as CD/DVD with/without codecs
+			import apt
+			cache = apt.Cache()
+			if "tuquito-meta-codecs" in cache:
+				pkg = cache["tuquito-meta-codecs"]
+				if not pkg.isInstalled:
+					text['codecs'] = _("Add Multimedia Codecs")
+					text['visibilitycodecs'] = "visible"
+					self.codecs_pkg = "tuquito-meta-codecs"
+			if "tuquito-desktop-main" in cache:
+				pkg = cache["tuquito-desktop-main"]
+				if not pkg.isInstalled:
+					text['displayextraapps'] = "visible"
+					self.extra_pkg = "tuquito-desktop-main"
+
 		if os.path.exists(os.path.join(home, '.tuquito/tuquito-biendenida/norun')):
 			text['checked'] = ''
 		else:
@@ -125,6 +147,9 @@ class Welcome():
 			os.system('xdg-open http://tuquito.org.ar/donaciones.html')
 		elif title == 'event_users':
 			os.system('xdg-open http://tuquito.org.ar/usuarios.html')
+		elif title == "event_extra_software":
+			if self.extra_pkg is not None:
+				os.system("xdg-open apt://%s" % self.extra_pkg)
 		elif title == 'event_close_true':
 			if os.path.exists(home + '/.tuquito/tuquito-bienvenida/norun'):
 				os.system('rm -rf ' + home + '/.tuquito/tuquito-bienvenida/norun')
