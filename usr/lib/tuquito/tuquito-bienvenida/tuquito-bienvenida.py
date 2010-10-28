@@ -92,13 +92,13 @@ class Welcome():
 			cache = apt.Cache()
 			if "tuquito-meta-codecs" in cache:
 				pkg = cache["tuquito-meta-codecs"]
-				if not pkg.isInstalled:
+				if not pkg.is_installed:
 					text['codecs'] = _("Add Multimedia Codecs")
 					text['visibilitycodecs'] = "visible"
 					self.codecs_pkg = "tuquito-meta-codecs"
 			if "tuquito-desktop-main" in cache:
 				pkg = cache["tuquito-desktop-main"]
-				if not pkg.isInstalled:
+				if not pkg.is_installed:
 					text['displayextraapps'] = "visible"
 					self.extra_pkg = "tuquito-desktop-main"
 
