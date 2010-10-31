@@ -1,3 +1,9 @@
+tuquito-bienvenida (4.1-5) maverick; urgency=low
+
+  * new translations
+
+ -- Mario Colque <mario@tuquito.org.ar>  Sun, 31 Oct 2010 20:39:50 -0300
+
 tuquito-bienvenida (4.1-4) maverick; urgency=low
 
   * deprecated function fixed
