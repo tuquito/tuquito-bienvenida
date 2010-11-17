@@ -7,10 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: tuquito-bienvenida 0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-10-31 20:28-0300\n"
+"POT-Creation-Date: 2010-11-17 18:40-0300\n"
 "PO-Revision-Date: 2010-06-14 14:41-0300\n"
 "Last-Translator: Carlos Pessoa de Araújo <carlosfelipe@tuquito.org.ar>\n"
 "Language-Team: Portuguese\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -97,66 +98,74 @@ msgid "Meet other projects Tuquito"
 msgstr "Conheça os outros projetos do Tuquito"
 
 #: usr/lib/tuquito/tuquito-bienvenida/tuquito-bienvenida.py:69
+msgid "Fundation Tuquito Libre"
+msgstr "Fundação Tuquito Libre"
+
+#: usr/lib/tuquito/tuquito-bienvenida/tuquito-bienvenida.py:70
+msgid "Join Tuquito Foundation"
+msgstr "Una-se à Fundação Tuquito"
+
+#: usr/lib/tuquito/tuquito-bienvenida/tuquito-bienvenida.py:71
 msgid "Donations"
 msgstr "Doações"
 
-#: usr/lib/tuquito/tuquito-bienvenida/tuquito-bienvenida.py:70
+#: usr/lib/tuquito/tuquito-bienvenida/tuquito-bienvenida.py:72
 msgid "Making a small donation, you help us improve the product"
 msgstr "Fazendo uma pequena doação, você nos ajuda a melhorar o sistema"
 
-#: usr/lib/tuquito/tuquito-bienvenida/tuquito-bienvenida.py:71
+#: usr/lib/tuquito/tuquito-bienvenida/tuquito-bienvenida.py:73
 msgid "How to Participate"
 msgstr "Como participar"
 
-#: usr/lib/tuquito/tuquito-bienvenida/tuquito-bienvenida.py:72
+#: usr/lib/tuquito/tuquito-bienvenida/tuquito-bienvenida.py:74
 msgid "Ways and means to participate in the project"
 msgstr "Formas e meios de como participar no projeto"
 
-#: usr/lib/tuquito/tuquito-bienvenida/tuquito-bienvenida.py:73
+#: usr/lib/tuquito/tuquito-bienvenida/tuquito-bienvenida.py:75
 msgid "Tuquito Social"
 msgstr ""
 
-#: usr/lib/tuquito/tuquito-bienvenida/tuquito-bienvenida.py:74
+#: usr/lib/tuquito/tuquito-bienvenida/tuquito-bienvenida.py:76
 msgid "Join the social network Tuquito"
 msgstr "Una-se à rede social do Tuquito"
 
-#: usr/lib/tuquito/tuquito-bienvenida/tuquito-bienvenida.py:75
+#: usr/lib/tuquito/tuquito-bienvenida/tuquito-bienvenida.py:77
 msgid "Tuquito Universe"
 msgstr "Universo Tuquito"
 
-#: usr/lib/tuquito/tuquito-bienvenida/tuquito-bienvenida.py:76
+#: usr/lib/tuquito/tuquito-bienvenida/tuquito-bienvenida.py:78
 msgid "Find out everything that happens in Tuquito"
 msgstr "Fique por dentro das novidades do Tuquito"
 
-#: usr/lib/tuquito/tuquito-bienvenida/tuquito-bienvenida.py:78
+#: usr/lib/tuquito/tuquito-bienvenida/tuquito-bienvenida.py:80
 msgid "Follow us on Facebook"
 msgstr "Siga a gente no Facebook"
 
-#: usr/lib/tuquito/tuquito-bienvenida/tuquito-bienvenida.py:80
+#: usr/lib/tuquito/tuquito-bienvenida/tuquito-bienvenida.py:82
 msgid "Follow us on Twitter"
 msgstr "Siga a gente no Twitter"
 
-#: usr/lib/tuquito/tuquito-bienvenida/tuquito-bienvenida.py:81
+#: usr/lib/tuquito/tuquito-bienvenida/tuquito-bienvenida.py:83
 msgid "Show this dialog at startup"
 msgstr "Mostrar este diálogo ao iniciar"
 
-#: usr/lib/tuquito/tuquito-bienvenida/tuquito-bienvenida.py:82
+#: usr/lib/tuquito/tuquito-bienvenida/tuquito-bienvenida.py:84
 msgid "Close"
 msgstr "Fechar"
 
-#: usr/lib/tuquito/tuquito-bienvenida/tuquito-bienvenida.py:83
+#: usr/lib/tuquito/tuquito-bienvenida/tuquito-bienvenida.py:85
 msgid "Upgrade to the Main Edition (DVD)"
 msgstr "Upgrade para a versão Main (DVD)"
 
-#: usr/lib/tuquito/tuquito-bienvenida/tuquito-bienvenida.py:96
+#: usr/lib/tuquito/tuquito-bienvenida/tuquito-bienvenida.py:98
 msgid "Add Multimedia Codecs"
 msgstr "Adicionar Codecs Multimédia"
 
-#: usr/lib/tuquito/tuquito-bienvenida/tuquito-bienvenida.py:109
+#: usr/lib/tuquito/tuquito-bienvenida/tuquito-bienvenida.py:111
 msgid "Hi"
 msgstr "Olá"
 
-#: usr/lib/tuquito/tuquito-bienvenida/tuquito-bienvenida.py:110
+#: usr/lib/tuquito/tuquito-bienvenida/tuquito-bienvenida.py:112
 #, python-format
 msgid ""
 "welcome to Tuquito %s!<br>Thank you very much for choosing us. We hope you "
@@ -169,4 +178,5 @@ msgstr ""
 "que você desfrute do trabalho desta enorme comunidade.<br>Os links a seguir "
 "vão ajudá-lo a iniciá-lo no sistema operacional. Não hesite de nos enviar "
 "suas sugestões para continuarmos melhorando.<br>Lembre-se, você pode se "
-"cadastrar em nossa <a href=\"#\" onclick=\"javascript:changeTitle('event_users')\">seção de usuários</a>."
+"cadastrar em nossa <a href=\"#\" onclick=\"javascript:changeTitle"
+"('event_users')\">seção de usuários</a>."

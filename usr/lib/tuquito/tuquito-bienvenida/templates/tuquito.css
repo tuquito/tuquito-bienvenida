@@ -1,99 +1,99 @@
 html {
-	border: 1px solid #828B94;
-	height: 480px;
+    border: 1px solid #828B94;
+    height: 480px;
 }
 html, body {
-	margin: 0;
-	padding: 0;
-	font-family: "Ubuntu";
-	overflow: none;
+    margin: 0;
+    padding: 0;
+    font-family: "Ubuntu";
+    overflow: none;
 }
 body {
-	background: url(/usr/lib/tuquito/tuquito-bienvenida/templates/back.jpg) no-repeat;
-	color: white;
-	text-shadow: #233C56 1px 1px 0px;
+    background: url(/usr/lib/tuquito/tuquito-bienvenida/templates/back.jpg) no-repeat;
+    color: white;
+    text-shadow: #233C56 1px 1px 0px;
 }
 a {
-	color: #F8911B;
-	text-decoration: none;
+    color: #FFC65D;
+    text-decoration: none;
 }
 a:hover { text-decoration: underline; }
 .text {
-	font-size: 12px;
-	font-style: italic;
+    font-size: 12px;
+    font-style: italic;
 }
 .hidden { display: none;}
 #content { margin: 0 10px 0 10px; }
 #botonera {
-	margin: 20px auto 20px auto;
-	text-align: center;
+    margin: 20px auto 20px auto;
+    text-align: center;
 }
 #botonera ul li {
-	display: inline;
-	margin: 0 5px 0 5px;
+    display: inline;
+    margin: 0 5px 0 5px;
 }
 .boton {
-	background: url(/usr/lib/tuquito/tuquito-bienvenida/templates/buttonbg.png) no-repeat 100% -112px !important;
-	color: white;
-	display: inline-block;
-	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-	font-size: 17px !important;
-	height: 36px !important;
-	line-height: 36px;
-	margin: 0px;
-	padding: 0px 15px 0px 0px;
-	text-align: center;
-	text-shadow: #2D4B69 0px -1px 0px;
-	cursor: pointer;
+    background: url(/usr/lib/tuquito/tuquito-bienvenida/templates/buttonbg.png) no-repeat 100% -112px !important;
+    color: white;
+    display: inline-block;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 17px !important;
+    height: 36px !important;
+    line-height: 36px;
+    margin: 0px;
+    padding: 0px 15px 0px 0px;
+    text-align: center;
+    text-shadow: #2D4B69 0px -1px 0px;
+    cursor: pointer;
 }
 .boton span {
-	background: url(/usr/lib/tuquito/tuquito-bienvenida/templates/buttonbg.png) no-repeat 0% 0% !important;
-	color: white;
-	display: block;
-	font-size: 17px !important;
-	height: 36px !important;
-	padding: 0px 0px 0px 15px !important;
-	text-align: center;
-	text-shadow: #2D4B69 0px -1px 0px;
+    background: url(/usr/lib/tuquito/tuquito-bienvenida/templates/buttonbg.png) no-repeat 0% 0% !important;
+    color: white;
+    display: block;
+    font-size: 17px !important;
+    height: 36px !important;
+    padding: 0px 0px 0px 15px !important;
+    text-align: center;
+    text-shadow: #2D4B69 0px -1px 0px;
 }
 .boton img {
-	position: relative;
-	top: 5px;
+    position: relative;
+    top: 5px;
 }
 #data {
-	font-size: 13px;
-	margin-bottom: 20px;
+    font-size: 13px;
+    margin-bottom: 20px;
 }
 #welcome {
-	font-size: 16px;
-	margin-bottom: 20px;
+    font-size: 16px;
+    margin-bottom: 20px;
 }
 #form {
-	font-size: 11px;
-	position: absolute;
-	bottom: 30px;
-	right: 10px;
+    font-size: 11px;
+    position: absolute;
+    bottom: 30px;
+    right: 10px;
 }
 #footer {
-	font-size: 10px;
-	position: absolute;
-	bottom: 0;
-	text-align: right;
-	padding: 6px;
-	width: 688px;
+    font-size: 10px;
+    position: absolute;
+    bottom: 0;
+    text-align: right;
+    padding: 6px;
+    width: 688px;
 }
 ul {
-	list-style-type: none;
-	text-indent: 20px;
+    list-style-type: none;
+    text-indent: 20px;
 }
 li {
-	background: url(/usr/lib/tuquito/tuquito-bienvenida/templates/arrow.png) no-repeat;
-	background-position: left;
+    background: url(/usr/lib/tuquito/tuquito-bienvenida/templates/arrow.png) no-repeat;
+    background-position: left;
 }
 #extraApps {
-	margin-left: 15px;
-	background: url(/usr/lib/tuquito/tuquito-bienvenida/templates/full.png) no-repeat left;
-	padding-left: 40px;
-	padding-top: 18px;
-	height: 36px !important;
+    margin-left: 15px;
+    background: url(/usr/lib/tuquito/tuquito-bienvenida/templates/full.png) no-repeat left;
+    padding-left: 40px;
+    padding-top: 18px;
+    height: 36px !important;
 }

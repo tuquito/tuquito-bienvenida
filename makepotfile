@@ -1,0 +1,2 @@
+#!/bin/bash
+xgettext --language=Python --keyword=_ --output=po/tuquito-bienvenida.pot usr/lib/tuquito/tuquito-bienvenida/tuquito-bienvenida.py
