@@ -1,3 +1,12 @@
+tuquito-bienvenida (4.1-6) maverick; urgency=low
+
+  * new background
+  * new link colors
+  * new packages Main install
+  * added link Fundation
+
+ -- Mario Colque <mario@tuquito.org.ar>  Wed, 17 Nov 2010 18:45:46 -0300
+
 tuquito-bienvenida (4.1-5) maverick; urgency=low
 
   * new translations
