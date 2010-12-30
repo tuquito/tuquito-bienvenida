@@ -1,3 +1,9 @@
+tuquito-bienvenida (4.1-7) maverick; urgency=low
+
+  * fixed permissions
+
+ -- Mario Colque <mario@tuquito.org.ar>  Thu, 30 Dec 2010 20:21:46 -0300
+
 tuquito-bienvenida (4.1-6) maverick; urgency=low
 
   * new background
