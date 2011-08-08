@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: tuquito-bienvenida 0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-11-17 18:40-0300\n"
+"POT-Creation-Date: 2011-08-08 18:01-0300\n"
 "PO-Revision-Date: 2010-06-14 14:41-0300\n"
 "Last-Translator: Carlos Pessoa de Araújo <carlosfelipe@tuquito.org.ar>\n"
 "Language-Team: Portuguese\n"
@@ -46,126 +46,130 @@ msgid "Community"
 msgstr "Comunidade"
 
 #: usr/lib/tuquito/tuquito-bienvenida/tuquito-bienvenida.py:56
+msgid "The official guide to the new user of Tuquito"
+msgstr "O guia oficial para o novo usuário de Tuquito"
+
+#: usr/lib/tuquito/tuquito-bienvenida/tuquito-bienvenida.py:58
 msgid "The source of information of excellence Tuquito"
 msgstr "A fonte de informação por excelência do Tuquito"
 
-#: usr/lib/tuquito/tuquito-bienvenida/tuquito-bienvenida.py:57
+#: usr/lib/tuquito/tuquito-bienvenida/tuquito-bienvenida.py:59
 msgid "Videos Tuquito"
 msgstr ""
 
-#: usr/lib/tuquito/tuquito-bienvenida/tuquito-bienvenida.py:58
+#: usr/lib/tuquito/tuquito-bienvenida/tuquito-bienvenida.py:60
 msgid "Videos and tutorials"
 msgstr "Vídeos e tutoriais"
 
-#: usr/lib/tuquito/tuquito-bienvenida/tuquito-bienvenida.py:59
+#: usr/lib/tuquito/tuquito-bienvenida/tuquito-bienvenida.py:61
 msgid "Forums"
 msgstr "Fóruns"
 
-#: usr/lib/tuquito/tuquito-bienvenida/tuquito-bienvenida.py:60
+#: usr/lib/tuquito/tuquito-bienvenida/tuquito-bienvenida.py:62
 msgid "Find help on the official forums"
 msgstr "Procure ajuda nos fóruns oficiais"
 
-#: usr/lib/tuquito/tuquito-bienvenida/tuquito-bienvenida.py:61
+#: usr/lib/tuquito/tuquito-bienvenida/tuquito-bienvenida.py:63
 msgid "Mailing List"
 msgstr "Lista de Correio"
 
-#: usr/lib/tuquito/tuquito-bienvenida/tuquito-bienvenida.py:62
+#: usr/lib/tuquito/tuquito-bienvenida/tuquito-bienvenida.py:64
 msgid "Join the mailing list open Tuquito"
 msgstr "Una-se à lista de correio aberta do Tuquito"
 
-#: usr/lib/tuquito/tuquito-bienvenida/tuquito-bienvenida.py:63
+#: usr/lib/tuquito/tuquito-bienvenida/tuquito-bienvenida.py:65
 msgid "Chat Room"
 msgstr "Sala de Chat"
 
-#: usr/lib/tuquito/tuquito-bienvenida/tuquito-bienvenida.py:64
+#: usr/lib/tuquito/tuquito-bienvenida/tuquito-bienvenida.py:66
 msgid "Meet other users of Tuquito"
 msgstr "Conheça os outros usuários do Tuquito"
 
-#: usr/lib/tuquito/tuquito-bienvenida/tuquito-bienvenida.py:65
+#: usr/lib/tuquito/tuquito-bienvenida/tuquito-bienvenida.py:67
 msgid "Urban Tuquito"
 msgstr "Tuquito Urbano"
 
-#: usr/lib/tuquito/tuquito-bienvenida/tuquito-bienvenida.py:66
+#: usr/lib/tuquito/tuquito-bienvenida/tuquito-bienvenida.py:68
 msgid "Helps those who most need"
 msgstr "Ajude os que mais necessitam"
 
-#: usr/lib/tuquito/tuquito-bienvenida/tuquito-bienvenida.py:67
+#: usr/lib/tuquito/tuquito-bienvenida/tuquito-bienvenida.py:69
 msgid "Other projects"
 msgstr "Outros projetos"
 
-#: usr/lib/tuquito/tuquito-bienvenida/tuquito-bienvenida.py:68
+#: usr/lib/tuquito/tuquito-bienvenida/tuquito-bienvenida.py:70
 msgid "Meet other projects Tuquito"
 msgstr "Conheça os outros projetos do Tuquito"
 
-#: usr/lib/tuquito/tuquito-bienvenida/tuquito-bienvenida.py:69
+#: usr/lib/tuquito/tuquito-bienvenida/tuquito-bienvenida.py:71
 msgid "Fundation Tuquito Libre"
 msgstr "Fundação Tuquito Libre"
 
-#: usr/lib/tuquito/tuquito-bienvenida/tuquito-bienvenida.py:70
+#: usr/lib/tuquito/tuquito-bienvenida/tuquito-bienvenida.py:72
 msgid "Join Tuquito Foundation"
 msgstr "Una-se à Fundação Tuquito"
 
-#: usr/lib/tuquito/tuquito-bienvenida/tuquito-bienvenida.py:71
+#: usr/lib/tuquito/tuquito-bienvenida/tuquito-bienvenida.py:73
 msgid "Donations"
 msgstr "Doações"
 
-#: usr/lib/tuquito/tuquito-bienvenida/tuquito-bienvenida.py:72
+#: usr/lib/tuquito/tuquito-bienvenida/tuquito-bienvenida.py:74
 msgid "Making a small donation, you help us improve the product"
 msgstr "Fazendo uma pequena doação, você nos ajuda a melhorar o sistema"
 
-#: usr/lib/tuquito/tuquito-bienvenida/tuquito-bienvenida.py:73
+#: usr/lib/tuquito/tuquito-bienvenida/tuquito-bienvenida.py:75
 msgid "How to Participate"
 msgstr "Como participar"
 
-#: usr/lib/tuquito/tuquito-bienvenida/tuquito-bienvenida.py:74
+#: usr/lib/tuquito/tuquito-bienvenida/tuquito-bienvenida.py:76
 msgid "Ways and means to participate in the project"
 msgstr "Formas e meios de como participar no projeto"
 
-#: usr/lib/tuquito/tuquito-bienvenida/tuquito-bienvenida.py:75
+#: usr/lib/tuquito/tuquito-bienvenida/tuquito-bienvenida.py:77
 msgid "Tuquito Social"
 msgstr ""
 
-#: usr/lib/tuquito/tuquito-bienvenida/tuquito-bienvenida.py:76
+#: usr/lib/tuquito/tuquito-bienvenida/tuquito-bienvenida.py:78
 msgid "Join the social network Tuquito"
 msgstr "Una-se à rede social do Tuquito"
 
-#: usr/lib/tuquito/tuquito-bienvenida/tuquito-bienvenida.py:77
+#: usr/lib/tuquito/tuquito-bienvenida/tuquito-bienvenida.py:79
 msgid "Tuquito Universe"
 msgstr "Universo Tuquito"
 
-#: usr/lib/tuquito/tuquito-bienvenida/tuquito-bienvenida.py:78
+#: usr/lib/tuquito/tuquito-bienvenida/tuquito-bienvenida.py:80
 msgid "Find out everything that happens in Tuquito"
 msgstr "Fique por dentro das novidades do Tuquito"
 
-#: usr/lib/tuquito/tuquito-bienvenida/tuquito-bienvenida.py:80
+#: usr/lib/tuquito/tuquito-bienvenida/tuquito-bienvenida.py:82
 msgid "Follow us on Facebook"
 msgstr "Siga a gente no Facebook"
 
-#: usr/lib/tuquito/tuquito-bienvenida/tuquito-bienvenida.py:82
+#: usr/lib/tuquito/tuquito-bienvenida/tuquito-bienvenida.py:84
 msgid "Follow us on Twitter"
 msgstr "Siga a gente no Twitter"
 
-#: usr/lib/tuquito/tuquito-bienvenida/tuquito-bienvenida.py:83
+#: usr/lib/tuquito/tuquito-bienvenida/tuquito-bienvenida.py:85
 msgid "Show this dialog at startup"
 msgstr "Mostrar este diálogo ao iniciar"
 
-#: usr/lib/tuquito/tuquito-bienvenida/tuquito-bienvenida.py:84
+#: usr/lib/tuquito/tuquito-bienvenida/tuquito-bienvenida.py:86
 msgid "Close"
 msgstr "Fechar"
 
-#: usr/lib/tuquito/tuquito-bienvenida/tuquito-bienvenida.py:85
+#: usr/lib/tuquito/tuquito-bienvenida/tuquito-bienvenida.py:87
 msgid "Upgrade to the Main Edition (DVD)"
 msgstr "Upgrade para a versão Main (DVD)"
 
-#: usr/lib/tuquito/tuquito-bienvenida/tuquito-bienvenida.py:98
+#: usr/lib/tuquito/tuquito-bienvenida/tuquito-bienvenida.py:100
 msgid "Add Multimedia Codecs"
 msgstr "Adicionar Codecs Multimédia"
 
-#: usr/lib/tuquito/tuquito-bienvenida/tuquito-bienvenida.py:111
+#: usr/lib/tuquito/tuquito-bienvenida/tuquito-bienvenida.py:113
 msgid "Hi"
 msgstr "Olá"
 
-#: usr/lib/tuquito/tuquito-bienvenida/tuquito-bienvenida.py:112
+#: usr/lib/tuquito/tuquito-bienvenida/tuquito-bienvenida.py:114
 #, python-format
 msgid ""
 "welcome to Tuquito %s!<br>Thank you very much for choosing us. We hope you "

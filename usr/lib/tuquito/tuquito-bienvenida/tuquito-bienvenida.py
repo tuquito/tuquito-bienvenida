@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 """
- Tuquito Bienvenida 4.1
+ Tuquito Bienvenida 5
  Copyright (C) 2010
  Author: Mario Colque <mario@tuquito.org.ar>
  Tuquito Team! - www.tuquito.org.ar
@@ -52,6 +52,8 @@ class Welcome():
         text['sop'] = _('Support')
         text['pro'] = _('Project')
         text['com'] = _('Community')
+        text['guia'] = 'User Guide'
+        text['guia2'] = _('The official guide to the new user of Tuquito')
         text['tukipedia'] = 'Tukipedia'
         text['tukipedia2'] = _('The source of information of excellence Tuquito')
         text['video'] = _('Videos Tuquito')
@@ -98,19 +100,19 @@ class Welcome():
                     text['codecs'] = _("Add Multimedia Codecs")
                     text['visibilitycodecs'] = "visible"
                     self.codecs_pkg = "tuquito-meta-codecs"
-            if "tuquito-desktop-main" in cache:
-                pkg = cache["tuquito-desktop-main"]
+            if "tuquito-meta-gnome-dvd" in cache:
+                pkg = cache["tuquito-meta-gnome-dvd"]
                 if not pkg.is_installed:
                     text['displayextraapps'] = "visible"
-                    self.extra_pkg = "tuquito-desktop-main,wine,gnome-exe-thumbnailer,aptoncd,gnome-games,skype"
+                    self.extra_pkg = "tuquito-meta-gnome-dvd,wine,gnome-exe-thumbnailer,gnome-games,skype"
 
-        if os.path.exists(os.path.join(home, '.tuquito/tuquito-biendenida/norun')):
+        if os.path.exists(os.path.join(home, '.tuquito/tuquito-bienvenida/norun')):
             text['checked'] = ''
         else:
             text['checked'] = 'CHECKED'
         welcome = _('Hi')
         welcome2 = _('welcome to Tuquito %s!<br>Thank you very much for choosing us. We hope you enjoy the work of this great community.<br>The following links will help you get started in the operating system. Please send your suggestions to continue improving.<br>Remember, you can register in our <a href="#" onclick="javascript:changeTitle(\'event_users\')">users section</a>.') % release
-        text['welcome'] = '%s, <b>%s</b>, %s' % (welcome, user, welcome2)
+        text['welcome'] = '%s <b>%s</b>, %s' % (welcome, user, welcome2)
         template = open('/usr/lib/tuquito/tuquito-bienvenida/templates/bienvenida.html').read()
         html = string.Template(template).safe_substitute(text)
         browser.load_html_string(html, 'file:/')
@@ -123,6 +125,8 @@ class Welcome():
         if title == 'event_irc':
             if os.path.exists('/usr/bin/xchat'):
                 os.system('/usr/bin/xchat &')
+        elif title == 'event_guia':
+            os.system('xdg-open http://tuquito.org.ar/guia.html')
         elif title == 'event_tukipedia':
             os.system('xdg-open http://tukipedia.tuquito.org.ar')
         elif title == 'event_video':

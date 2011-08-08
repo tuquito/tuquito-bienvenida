@@ -1,2 +1,5 @@
 #!/bin/bash
-xgettext --language=Python --keyword=_ --output=po/tuquito-bienvenida.pot usr/lib/tuquito/tuquito-bienvenida/tuquito-bienvenida.py
+xgettext --language=Python --keyword=_ --output=po/tuquito-bienvenida.pot usr/lib/tuquito/tuquito-bienvenida/tuquito-bienvenida.py --from-code=utf-8
+cd po
+msgmerge es.po tuquito-bienvenida.pot -o es.po
+msgmerge pt.po tuquito-bienvenida.pot -o pt.po

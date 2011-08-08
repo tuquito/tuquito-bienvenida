@@ -1,65 +1,63 @@
+* {
+    -webkit-user-select: none;
+    -webkit-user-drag: none;
+    outline: 0;
+}
 html {
-    border: 1px solid #828B94;
-    height: 480px;
+    font-family: "Ubuntu", Trebuchet MS;
+    font-size: 14px;
+    color: #64676A;
 }
 html, body {
     margin: 0;
     padding: 0;
-    font-family: "Ubuntu";
     overflow: none;
 }
 body {
     background: url(/usr/lib/tuquito/tuquito-bienvenida/templates/back.jpg) no-repeat;
     color: white;
-    text-shadow: #233C56 1px 1px 0px;
+    text-shadow: 1px 0 1px rgba(0, 0, 0, 0.3), -1px 0 1px rgba(0, 0, 0, 0.3), -1px 1px 1px rgba(0, 0, 0, 0.3), -1px -1px 1px rgba(0, 0, 0, 0.3);
 }
 a {
     color: #FFC65D;
     text-decoration: none;
+    outline: 0;
 }
 a:hover { text-decoration: underline; }
+ul, li { padding: 0; }
+article { display: none; }
 .text {
     font-size: 12px;
     font-style: italic;
 }
-.hidden { display: none;}
 #content { margin: 0 10px 0 10px; }
 #botonera {
     margin: 20px auto 20px auto;
     text-align: center;
 }
 #botonera ul li {
-    display: inline;
-    margin: 0 5px 0 5px;
-}
-.boton {
-    background: url(/usr/lib/tuquito/tuquito-bienvenida/templates/buttonbg.png) no-repeat 100% -112px !important;
+    border: 1px solid #4B8B3F;
     color: white;
-    display: inline-block;
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-size: 17px !important;
-    height: 36px !important;
-    line-height: 36px;
-    margin: 0px;
-    padding: 0px 15px 0px 0px;
-    text-align: center;
-    text-shadow: #2D4B69 0px -1px 0px;
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.4);
+    -webkit-border-radius: 8px;
+    -webkit-box-shadow: 0 0 2px rgba(255, 255, 255, 0.9);
+    background: -webkit-gradient(linear,left top,left bottom,color-stop(0,#B3DC89),color-stop(1,#85BA61));
+    margin: 0 5px;
+    padding: 4px 10px;
+    line-height: 22px;
     cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
+    text-align: left;
 }
-.boton span {
-    background: url(/usr/lib/tuquito/tuquito-bienvenida/templates/buttonbg.png) no-repeat 0% 0% !important;
-    color: white;
-    display: block;
-    font-size: 17px !important;
-    height: 36px !important;
-    padding: 0px 0px 0px 15px !important;
-    text-align: center;
-    text-shadow: #2D4B69 0px -1px 0px;
+#botonera ul li:hover {
+    background: -webkit-gradient(linear,left top,left bottom,color-stop(0,#CCEAAE),color-stop(1,#85BA61));
+    text-decoration: none;
 }
-.boton img {
-    position: relative;
-    top: 5px;
-}
+#botonera ul li img {
+    float: left;
+    margin-right: 4px;
+    }
 #data {
     font-size: 13px;
     margin-bottom: 20px;
@@ -74,7 +72,7 @@ a:hover { text-decoration: underline; }
     bottom: 30px;
     right: 10px;
 }
-#footer {
+footer {
     font-size: 10px;
     position: absolute;
     bottom: 0;
@@ -82,11 +80,12 @@ a:hover { text-decoration: underline; }
     padding: 6px;
     width: 688px;
 }
-ul {
+article ul {
+    padding-left: 20px;
     list-style-type: none;
     text-indent: 20px;
 }
-li {
+article li {
     background: url(/usr/lib/tuquito/tuquito-bienvenida/templates/arrow.png) no-repeat;
     background-position: left;
 }
@@ -96,4 +95,17 @@ li {
     padding-left: 40px;
     padding-top: 18px;
     height: 36px !important;
+}
+.button {
+    color: #333;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(white), to(#DFDFDF));
+    -webkit-box-shadow: 0 1px 2px #888;
+    padding: 4px 10px;
+    margin-left: 20px;
+    border: 1px solid #E4E4E4;
+    -webkit-border-radius: 3px;
+}
+.button:hover {
+    border-color: #CCC;
+    -webkit-box-shadow: 0 1px 2px #666;
 }

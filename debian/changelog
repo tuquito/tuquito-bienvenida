@@ -1,3 +1,11 @@
+tuquito-bienvenida (5.0-1) natty; urgency=low
+
+  * Pampa branch
+  * better HTML5 and CSS3
+  * User Guide added
+
+ -- Mario Colque <mario@tuquito.org.ar>  Mon, 08 Aug 2011 18:16:04 -0300
+
 tuquito-bienvenida (4.1-7) maverick; urgency=low
 
   * fixed permissions

@@ -1,43 +1,37 @@
-document.onmousedown = new Function("return false");
-document.onselectstart = new Function ("return false");
-
 function changeTitle(title) {
-	document.title = title;
-	document.title = "nop";
+    document.title = title;
+    document.title = 'nop';
 }
 
 function closeWindow() {
-	if (document.myForm.showDialog.checked == true)
-		changeTitle("event_close_true");
-	else
-		changeTitle("event_close_false");
+    if (document.getElementById('showDialog').checked)
+        changeTitle('event_close_true');
+    else
+        changeTitle('event_close_false');
 }
 
 function assessCheckbox() {
-	if (document.myForm.showDialog.checked == true)
-		changeTitle("checkbox_checked");
-	else
-		changeTitle("checkbox_unchecked");
+    if (document.getElementById('showDialog').checked)
+        changeTitle('checkbox_checked');
+    else
+        changeTitle('checkbox_unchecked');
 }
 
-$(document).ready(function(){
-	cont = $("#com").html();
-	$("#ajax").hide().html(cont).fadeIn(1800);
+$(function() {
+    cont = $('#com').html();
+    $('#ajax').html(cont).fadeIn(1800);
 
-	$("#btn_descarga").click(function(){
-		cont = $("#doc").html();
-		$("#ajax").hide().html(cont).fadeIn();
-	});
-	$("#btn_donacion").click(function(){
-		cont = $("#sop").html();
-		$("#ajax").hide().html(cont).fadeIn();
-	});
-	$("#btn_participar").click(function(){
-		cont = $("#pro").html();
-		$("#ajax").hide().html(cont).fadeIn();
-	});
-	$("#btn_exito").click(function(){
-		cont = $("#com").html();
-		$("#ajax").hide().html(cont).fadeIn();
-	});
+    $('#showDialog').click(function() {
+        assessCheckbox();
+    });
+
+    $('#closeButton').click(function() {
+        closeWindow();
+    });
+
+    $('.boton').click(function() {
+        data = $(this).data('cont');
+        cont = $('#' + data).html();
+        $('#ajax').hide().html(cont).fadeIn();
+    });
 });
