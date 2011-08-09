@@ -1,3 +1,9 @@
+tuquito-bienvenida (5.0-2) natty; urgency=low
+
+  * Language fixed
+
+ -- Mario Colque <mario@tuquito.org.ar>  Tue, 09 Aug 2011 03:08:10 -0300
+
 tuquito-bienvenida (5.0-1) natty; urgency=low
 
   * Pampa branch

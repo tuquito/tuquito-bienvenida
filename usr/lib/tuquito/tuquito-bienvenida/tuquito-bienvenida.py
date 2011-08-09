@@ -52,7 +52,7 @@ class Welcome():
         text['sop'] = _('Support')
         text['pro'] = _('Project')
         text['com'] = _('Community')
-        text['guia'] = 'User Guide'
+        text['guia'] = _('User Guide')
         text['guia2'] = _('The official guide to the new user of Tuquito')
         text['tukipedia'] = 'Tukipedia'
         text['tukipedia2'] = _('The source of information of excellence Tuquito')

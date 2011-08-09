@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: tuquito-bienvenida 0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-08-08 18:01-0300\n"
+"POT-Creation-Date: 2011-08-09 03:05-0300\n"
 "PO-Revision-Date: 2010-06-14 14:36-0300\n"
 "Last-Translator: Mario Colque <mario@tuquito.org.ar>\n"
 "Language-Team: Spanish\n"
@@ -44,6 +44,10 @@ msgstr "Proyecto"
 #: usr/lib/tuquito/tuquito-bienvenida/tuquito-bienvenida.py:54
 msgid "Community"
 msgstr "Comunidad"
+
+#: usr/lib/tuquito/tuquito-bienvenida/tuquito-bienvenida.py:55
+msgid "User Guide"
+msgstr "Guía del usuario"
 
 #: usr/lib/tuquito/tuquito-bienvenida/tuquito-bienvenida.py:56
 msgid "The official guide to the new user of Tuquito"

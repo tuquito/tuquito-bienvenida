@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-08-08 18:01-0300\n"
+"POT-Creation-Date: 2011-08-09 03:05-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -43,6 +43,10 @@ msgstr ""
 
 #: usr/lib/tuquito/tuquito-bienvenida/tuquito-bienvenida.py:54
 msgid "Community"
+msgstr ""
+
+#: usr/lib/tuquito/tuquito-bienvenida/tuquito-bienvenida.py:55
+msgid "User Guide"
 msgstr ""
 
 #: usr/lib/tuquito/tuquito-bienvenida/tuquito-bienvenida.py:56
