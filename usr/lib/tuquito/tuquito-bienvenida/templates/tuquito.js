@@ -2,21 +2,18 @@ function changeTitle(title) {
     document.title = title;
     document.title = 'nop';
 }
-
 function closeWindow() {
     if (document.getElementById('showDialog').checked)
         changeTitle('event_close_true');
     else
         changeTitle('event_close_false');
 }
-
 function assessCheckbox() {
     if (document.getElementById('showDialog').checked)
         changeTitle('checkbox_checked');
     else
         changeTitle('checkbox_unchecked');
 }
-
 $(function() {
     cont = $('#com').html();
     $('#ajax').html(cont).fadeIn(1800);

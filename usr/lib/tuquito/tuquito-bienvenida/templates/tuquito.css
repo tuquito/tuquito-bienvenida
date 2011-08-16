@@ -27,6 +27,10 @@ a {
 }
 a:hover { text-decoration: underline; }
 ul, li { padding: 0; }
+h3 {
+    font-size: 22px;
+    font-weight: normal;
+}
 article { display: none; }
 .text {
     font-size: 12px;
@@ -65,8 +69,8 @@ article { display: none; }
     margin-bottom: 20px;
 }
 #welcome {
-    font-size: 16px;
-    margin-bottom: 20px;
+    font-size: 15px;
+    margin-bottom: 10px;
 }
 #form {
     font-size: 11px;
@@ -86,18 +90,26 @@ article ul {
     padding-left: 20px;
     list-style-type: none;
     text-indent: 20px;
+    margin-bottom: 20px;
 }
 article li {
-    background: url(/usr/lib/tuquito/tuquito-bienvenida/templates/arrow.png) no-repeat;
+    background: url(/usr/lib/tuquito/tuquito-bienvenida/templates/bullet.png) no-repeat;
     background-position: left;
 }
-#extraApps {
+#extraApps > a {
+    display: block;
     margin-left: 15px;
-    background: url(/usr/lib/tuquito/tuquito-bienvenida/templates/full.png) no-repeat left;
+    margin-top: 6px;
+    background-position: left center;
+    background-repeat: no-repeat;
     padding-left: 40px;
-    padding-top: 18px;
-    height: 36px !important;
+    height: 32px;
+    line-height: 30px;
+    max-width: 220px;
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, .6);
 }
+a#codecs { background-image: url(/usr/lib/tuquito/tuquito-bienvenida/templates/codecs.png); }
+a#extraSoft { background-image: url(/usr/lib/tuquito/tuquito-bienvenida/templates/full.png); }
 .button {
     color: #333;
     background-image: -webkit-gradient(linear, left top, left bottom, from(white), to(#DFDFDF));

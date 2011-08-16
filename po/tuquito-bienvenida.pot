@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-08-09 03:05-0300\n"
+"POT-Creation-Date: 2011-08-15 22:15-0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -46,7 +46,7 @@ msgid "Community"
 msgstr ""
 
 #: usr/lib/tuquito/tuquito-bienvenida/tuquito-bienvenida.py:55
-msgid "User Guide"
+msgid "User Guide (PDF)"
 msgstr ""
 
 #: usr/lib/tuquito/tuquito-bienvenida/tuquito-bienvenida.py:56
@@ -162,23 +162,23 @@ msgid "Close"
 msgstr ""
 
 #: usr/lib/tuquito/tuquito-bienvenida/tuquito-bienvenida.py:87
-msgid "Upgrade to the Main Edition (DVD)"
-msgstr ""
-
-#: usr/lib/tuquito/tuquito-bienvenida/tuquito-bienvenida.py:100
 msgid "Add Multimedia Codecs"
 msgstr ""
 
-#: usr/lib/tuquito/tuquito-bienvenida/tuquito-bienvenida.py:113
+#: usr/lib/tuquito/tuquito-bienvenida/tuquito-bienvenida.py:88
+msgid "Upgrade to the DVD Edition"
+msgstr ""
+
+#: usr/lib/tuquito/tuquito-bienvenida/tuquito-bienvenida.py:117
 msgid "Hi"
 msgstr ""
 
-#: usr/lib/tuquito/tuquito-bienvenida/tuquito-bienvenida.py:114
+#: usr/lib/tuquito/tuquito-bienvenida/tuquito-bienvenida.py:118
 #, python-format
 msgid ""
 "welcome to Tuquito %s!<br>Thank you very much for choosing us. We hope you "
 "enjoy the work of this great community.<br>The following links will help you "
 "get started in the operating system. Please send your suggestions to "
-"continue improving.<br>Remember, you can register in our <a href=\"#\" "
-"onclick=\"javascript:changeTitle('event_users')\">users section</a>."
+"continue improving.<br>Remember, you can register in our <a onclick="
+"\"javascript:changeTitle('event_users')\">users section</a>."
 msgstr ""

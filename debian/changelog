@@ -1,3 +1,9 @@
+tuquito-bienvenida (5.0-4) natty; urgency=low
+
+  * new style
+
+ -- Mario Colque <mario@tuquito.org.ar>  Mon, 15 Aug 2011 22:16:59 -0300
+
 tuquito-bienvenida (5.0-3) natty; urgency=low
 
   * css fixed
