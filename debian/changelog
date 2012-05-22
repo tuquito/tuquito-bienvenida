@@ -1,3 +1,9 @@
+tuquito-bienvenida (6.0-1) precise; urgency=low
+
+  * Guarani branch
+
+ -- Mario Colque <mario@tuquito.org.ar>  Tue, 22 May 2012 13:04:33 -0300
+
 tuquito-bienvenida (5.0-4) natty; urgency=low
 
   * new style

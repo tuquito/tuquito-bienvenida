@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 """
- Tuquito Bienvenida 5
+ Tuquito Bienvenida
  Copyright (C) 2010
  Author: Mario Colque <mario@tuquito.org.ar>
  Tuquito Team! - www.tuquito.org.ar
@@ -144,7 +144,7 @@ class Welcome():
         elif title == 'event_universo':
             os.system('xdg-open http://universo.tuquito.org.ar')
         elif title == 'event_facebook':
-            os.system('xdg-open http://facebook.com/pages/Tuquito/157877426382')
+            os.system('xdg-open http://facebook.com/TuquitoGNULinux')
         elif title == 'event_twitter':
             os.system('xdg-open http://twitter.com/tuquitolinux')
         elif title == 'event_urbano':
