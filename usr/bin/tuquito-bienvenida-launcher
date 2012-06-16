@@ -1,7 +1,8 @@
 #!/bin/sh
 DIR="$HOME/.tuquito/tuquito-bienvenida/norun"
 if [ ! -f $DIR ]; then
-	if [ "`mount | grep "aufs"`" = "" ]; then
+	LIVE=`grep -cE "boot=(casper|live)" /proc/cmdline`
+	if [ $LIVE = 0 ]; then
 		sleep 10
 		/usr/lib/tuquito/tuquito-bienvenida/tuquito-bienvenida.py &
 	fi;
